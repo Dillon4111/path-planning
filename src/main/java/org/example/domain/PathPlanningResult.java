@@ -14,4 +14,6 @@ public class PathPlanningResult {
     public int getTotalValue() {
         return this.totalValue;
     }
+
+    public ArrayList<Plane> getPath() { return path; }
 }

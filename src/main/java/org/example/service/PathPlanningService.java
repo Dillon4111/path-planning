@@ -7,7 +7,9 @@ import java.util.Arrays;
 import java.util.Scanner;
 import org.example.domain.PathPlanningResult;
 import org.example.domain.Plane;
+import org.springframework.stereotype.Service;
 
+@Service
 public class PathPlanningService {
     private static final String PATH_TO_FILE = "src/main/resources/grids/";
     private static final int[][] planePerimeter = {
